@@ -1,0 +1,786 @@
+{
+  "input": "C:\\Users\\KARAN GUPTA\\Downloads\\promo_finder_update\\pack",
+  "files_found": 50,
+  "episodes_parsed": 50,
+  "episodes_failed": [],
+  "missing_episode_numbers": [],
+  "duplicate_episode_numbers": [],
+  "blocks_total": 3727,
+  "blocks_by_type": {
+    "camera": 1754,
+    "action": 372,
+    "dialogue": 1487,
+    "sound": 114
+  },
+  "blocks_with_invalid_timestamps": 0,
+  "flag_counts": {
+    "overlaps_dialogue": 10,
+    "outside_scene_range": 1
+  },
+  "distinct_speaker_labels": 64,
+  "total_runtime_s": 6162.6,
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "episode-001-Episode 1671703.txt",
+      "duration_s": 138.0,
+      "scenes": 1,
+      "blocks": 95,
+      "by_type": {
+        "camera": 50,
+        "action": 7,
+        "dialogue": 37,
+        "sound": 1
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 2,
+      "file": "episode-002-Episode 1671704.txt",
+      "duration_s": 110.0,
+      "scenes": 1,
+      "blocks": 74,
+      "by_type": {
+        "camera": 39,
+        "dialogue": 31,
+        "action": 4
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 3,
+      "file": "episode-003-Episode 1671705.txt",
+      "duration_s": 145.75,
+      "scenes": 3,
+      "blocks": 118,
+      "by_type": {
+        "camera": 61,
+        "dialogue": 46,
+        "action": 8,
+        "sound": 3
+      },
+      "flags": {
+        "overlaps_dialogue": 1
+      },
+      "issues": []
+    },
+    {
+      "episode": 4,
+      "file": "episode-004-Episode 1671706.txt",
+      "duration_s": 151.4,
+      "scenes": 1,
+      "blocks": 110,
+      "by_type": {
+        "camera": 59,
+        "action": 9,
+        "dialogue": 40,
+        "sound": 2
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 5,
+      "file": "episode-005-Episode 1671707.txt",
+      "duration_s": 110.5,
+      "scenes": 1,
+      "blocks": 62,
+      "by_type": {
+        "camera": 25,
+        "action": 6,
+        "dialogue": 29,
+        "sound": 2
+      },
+      "flags": {
+        "overlaps_dialogue": 1
+      },
+      "issues": []
+    },
+    {
+      "episode": 6,
+      "file": "episode-006-Episode 1671708.txt",
+      "duration_s": 115.0,
+      "scenes": 2,
+      "blocks": 97,
+      "by_type": {
+        "camera": 52,
+        "action": 11,
+        "sound": 6,
+        "dialogue": 28
+      },
+      "flags": {
+        "overlaps_dialogue": 1
+      },
+      "issues": []
+    },
+    {
+      "episode": 7,
+      "file": "episode-007-Episode 1671709.txt",
+      "duration_s": 116.0,
+      "scenes": 3,
+      "blocks": 58,
+      "by_type": {
+        "camera": 28,
+        "action": 7,
+        "sound": 3,
+        "dialogue": 20
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 8,
+      "file": "episode-008-Episode 1671710.txt",
+      "duration_s": 78.0,
+      "scenes": 1,
+      "blocks": 63,
+      "by_type": {
+        "camera": 33,
+        "action": 3,
+        "dialogue": 26,
+        "sound": 1
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 9,
+      "file": "episode-009-Episode 1671711.txt",
+      "duration_s": 115.5,
+      "scenes": 2,
+      "blocks": 89,
+      "by_type": {
+        "camera": 42,
+        "action": 13,
+        "sound": 1,
+        "dialogue": 33
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 10,
+      "file": "episode-010-Episode 1671712.txt",
+      "duration_s": 94.0,
+      "scenes": 1,
+      "blocks": 60,
+      "by_type": {
+        "camera": 35,
+        "action": 2,
+        "sound": 1,
+        "dialogue": 22
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 11,
+      "file": "episode-011-Episode 1671713.txt",
+      "duration_s": 112.75,
+      "scenes": 2,
+      "blocks": 85,
+      "by_type": {
+        "camera": 43,
+        "sound": 3,
+        "action": 6,
+        "dialogue": 33
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 12,
+      "file": "episode-012-Episode 1671714.txt",
+      "duration_s": 87.21,
+      "scenes": 1,
+      "blocks": 55,
+      "by_type": {
+        "camera": 24,
+        "dialogue": 24,
+        "action": 7
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 13,
+      "file": "episode-013-Episode 1671715.txt",
+      "duration_s": 118.88,
+      "scenes": 2,
+      "blocks": 75,
+      "by_type": {
+        "camera": 38,
+        "sound": 3,
+        "action": 12,
+        "dialogue": 22
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 14,
+      "file": "episode-014-Episode 1671716.txt",
+      "duration_s": 87.63,
+      "scenes": 3,
+      "blocks": 51,
+      "by_type": {
+        "camera": 23,
+        "action": 9,
+        "sound": 5,
+        "dialogue": 14
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 15,
+      "file": "episode-015-Episode 1671717.txt",
+      "duration_s": 86.0,
+      "scenes": 1,
+      "blocks": 55,
+      "by_type": {
+        "camera": 25,
+        "action": 11,
+        "sound": 2,
+        "dialogue": 17
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 16,
+      "file": "episode-016-Episode 1671718.txt",
+      "duration_s": 83.19,
+      "scenes": 1,
+      "blocks": 64,
+      "by_type": {
+        "camera": 27,
+        "action": 10,
+        "dialogue": 22,
+        "sound": 5
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 17,
+      "file": "episode-017-Episode 1671719.txt",
+      "duration_s": 118.88,
+      "scenes": 2,
+      "blocks": 75,
+      "by_type": {
+        "camera": 34,
+        "action": 13,
+        "dialogue": 26,
+        "sound": 2
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 18,
+      "file": "episode-018-Episode 1671720.txt",
+      "duration_s": 192.0,
+      "scenes": 5,
+      "blocks": 81,
+      "by_type": {
+        "camera": 28,
+        "sound": 5,
+        "action": 20,
+        "dialogue": 28
+      },
+      "flags": {
+        "overlaps_dialogue": 1
+      },
+      "issues": []
+    },
+    {
+      "episode": 19,
+      "file": "episode-019-Episode 1671721.txt",
+      "duration_s": 119.63,
+      "scenes": 3,
+      "blocks": 63,
+      "by_type": {
+        "camera": 24,
+        "action": 10,
+        "dialogue": 29
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 20,
+      "file": "episode-020-Episode 1671722.txt",
+      "duration_s": 114.75,
+      "scenes": 4,
+      "blocks": 68,
+      "by_type": {
+        "camera": 22,
+        "dialogue": 41,
+        "action": 4,
+        "sound": 1
+      },
+      "flags": {
+        "overlaps_dialogue": 1
+      },
+      "issues": []
+    },
+    {
+      "episode": 21,
+      "file": "episode-021-Episode 1678574.txt",
+      "duration_s": 114.0,
+      "scenes": 3,
+      "blocks": 76,
+      "by_type": {
+        "camera": 31,
+        "action": 15,
+        "sound": 2,
+        "dialogue": 28
+      },
+      "flags": {
+        "overlaps_dialogue": 1
+      },
+      "issues": []
+    },
+    {
+      "episode": 22,
+      "file": "episode-022-Episode 1678575.txt",
+      "duration_s": 131.0,
+      "scenes": 4,
+      "blocks": 81,
+      "by_type": {
+        "camera": 37,
+        "action": 11,
+        "dialogue": 30,
+        "sound": 3
+      },
+      "flags": {
+        "outside_scene_range": 1
+      },
+      "issues": []
+    },
+    {
+      "episode": 23,
+      "file": "episode-023-Episode 1678576.txt",
+      "duration_s": 131.5,
+      "scenes": 1,
+      "blocks": 67,
+      "by_type": {
+        "camera": 39,
+        "dialogue": 20,
+        "action": 2,
+        "sound": 6
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 24,
+      "file": "episode-024-Episode 1678577.txt",
+      "duration_s": 92.0,
+      "scenes": 2,
+      "blocks": 69,
+      "by_type": {
+        "camera": 31,
+        "sound": 3,
+        "action": 12,
+        "dialogue": 23
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 25,
+      "file": "episode-025-Episode 1678578.txt",
+      "duration_s": 168.0,
+      "scenes": 1,
+      "blocks": 95,
+      "by_type": {
+        "camera": 44,
+        "action": 9,
+        "dialogue": 42
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 26,
+      "file": "episode-026-Episode 1678579.txt",
+      "duration_s": 120.88,
+      "scenes": 1,
+      "blocks": 51,
+      "by_type": {
+        "camera": 27,
+        "action": 7,
+        "sound": 3,
+        "dialogue": 14
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 27,
+      "file": "episode-027-Episode 1678580.txt",
+      "duration_s": 150.5,
+      "scenes": 1,
+      "blocks": 95,
+      "by_type": {
+        "camera": 47,
+        "dialogue": 44,
+        "sound": 1,
+        "action": 3
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 28,
+      "file": "episode-028-Episode 1678581.txt",
+      "duration_s": 138.5,
+      "scenes": 1,
+      "blocks": 96,
+      "by_type": {
+        "camera": 38,
+        "action": 6,
+        "sound": 2,
+        "dialogue": 50
+      },
+      "flags": {
+        "overlaps_dialogue": 2
+      },
+      "issues": []
+    },
+    {
+      "episode": 29,
+      "file": "episode-029-Episode 1678582.txt",
+      "duration_s": 116.69,
+      "scenes": 3,
+      "blocks": 74,
+      "by_type": {
+        "camera": 38,
+        "sound": 4,
+        "action": 3,
+        "dialogue": 29
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 30,
+      "file": "episode-030-Episode 1678583.txt",
+      "duration_s": 151.21,
+      "scenes": 3,
+      "blocks": 71,
+      "by_type": {
+        "camera": 35,
+        "sound": 4,
+        "action": 4,
+        "dialogue": 28
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 31,
+      "file": "episode-031-Episode 1681364.txt",
+      "duration_s": 160.0,
+      "scenes": 1,
+      "blocks": 87,
+      "by_type": {
+        "camera": 41,
+        "sound": 3,
+        "action": 5,
+        "dialogue": 38
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 32,
+      "file": "episode-032-Episode 1681365.txt",
+      "duration_s": 154.38,
+      "scenes": 1,
+      "blocks": 117,
+      "by_type": {
+        "camera": 63,
+        "sound": 1,
+        "dialogue": 50,
+        "action": 3
+      },
+      "flags": {
+        "overlaps_dialogue": 1
+      },
+      "issues": []
+    },
+    {
+      "episode": 33,
+      "file": "episode-033-Episode 1681366.txt",
+      "duration_s": 174.04,
+      "scenes": 1,
+      "blocks": 99,
+      "by_type": {
+        "camera": 45,
+        "dialogue": 50,
+        "action": 4
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 34,
+      "file": "episode-034-Episode 1681367.txt",
+      "duration_s": 190.0,
+      "scenes": 1,
+      "blocks": 116,
+      "by_type": {
+        "camera": 55,
+        "dialogue": 48,
+        "sound": 4,
+        "action": 9
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 35,
+      "file": "episode-035-Episode 1681368.txt",
+      "duration_s": 157.5,
+      "scenes": 3,
+      "blocks": 72,
+      "by_type": {
+        "camera": 23,
+        "action": 12,
+        "dialogue": 33,
+        "sound": 4
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 36,
+      "file": "episode-036-Episode 1681369.txt",
+      "duration_s": 200.75,
+      "scenes": 1,
+      "blocks": 121,
+      "by_type": {
+        "camera": 56,
+        "action": 5,
+        "dialogue": 57,
+        "sound": 3
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 37,
+      "file": "episode-037-Episode 1681370.txt",
+      "duration_s": 156.47,
+      "scenes": 4,
+      "blocks": 79,
+      "by_type": {
+        "camera": 37,
+        "sound": 4,
+        "dialogue": 33,
+        "action": 5
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 38,
+      "file": "episode-038-Episode 1681371.txt",
+      "duration_s": 87.91,
+      "scenes": 1,
+      "blocks": 57,
+      "by_type": {
+        "camera": 21,
+        "action": 12,
+        "sound": 3,
+        "dialogue": 21
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 39,
+      "file": "episode-039-Episode 1686799.txt",
+      "duration_s": 98.41,
+      "scenes": 5,
+      "blocks": 59,
+      "by_type": {
+        "camera": 27,
+        "action": 12,
+        "dialogue": 18,
+        "sound": 2
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 40,
+      "file": "episode-040-Episode 1686800.txt",
+      "duration_s": 110.08,
+      "scenes": 4,
+      "blocks": 51,
+      "by_type": {
+        "camera": 24,
+        "sound": 2,
+        "dialogue": 20,
+        "action": 5
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 41,
+      "file": "episode-041-Episode 1686801.txt",
+      "duration_s": 96.09,
+      "scenes": 1,
+      "blocks": 53,
+      "by_type": {
+        "camera": 28,
+        "action": 5,
+        "dialogue": 18,
+        "sound": 2
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 42,
+      "file": "episode-042-Episode 1686802.txt",
+      "duration_s": 77.8,
+      "scenes": 1,
+      "blocks": 37,
+      "by_type": {
+        "camera": 14,
+        "action": 4,
+        "dialogue": 19
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 43,
+      "file": "episode-043-Episode 1686803.txt",
+      "duration_s": 114.96,
+      "scenes": 1,
+      "blocks": 87,
+      "by_type": {
+        "camera": 44,
+        "dialogue": 32,
+        "action": 8,
+        "sound": 3
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 44,
+      "file": "episode-044-Episode 1686804.txt",
+      "duration_s": 70.5,
+      "scenes": 2,
+      "blocks": 54,
+      "by_type": {
+        "camera": 29,
+        "action": 5,
+        "dialogue": 20
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 45,
+      "file": "episode-045-Episode 1686805.txt",
+      "duration_s": 121.75,
+      "scenes": 3,
+      "blocks": 74,
+      "by_type": {
+        "camera": 31,
+        "action": 12,
+        "dialogue": 29,
+        "sound": 2
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 46,
+      "file": "episode-046-Episode 1688395.txt",
+      "duration_s": 143.88,
+      "scenes": 1,
+      "blocks": 75,
+      "by_type": {
+        "camera": 38,
+        "action": 3,
+        "sound": 3,
+        "dialogue": 31
+      },
+      "flags": {
+        "overlaps_dialogue": 1
+      },
+      "issues": []
+    },
+    {
+      "episode": 47,
+      "file": "episode-047-Episode 1688396.txt",
+      "duration_s": 134.0,
+      "scenes": 4,
+      "blocks": 70,
+      "by_type": {
+        "camera": 34,
+        "dialogue": 33,
+        "action": 3
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 48,
+      "file": "episode-048-Episode 1688397.txt",
+      "duration_s": 80.0,
+      "scenes": 2,
+      "blocks": 43,
+      "by_type": {
+        "camera": 15,
+        "action": 5,
+        "dialogue": 21,
+        "sound": 2
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 49,
+      "file": "episode-049-Episode 1688398.txt",
+      "duration_s": 144.75,
+      "scenes": 1,
+      "blocks": 63,
+      "by_type": {
+        "camera": 31,
+        "sound": 1,
+        "action": 5,
+        "dialogue": 26
+      },
+      "flags": {},
+      "issues": []
+    },
+    {
+      "episode": 50,
+      "file": "episode-050-Episode 1697563.txt",
+      "duration_s": 80.0,
+      "scenes": 2,
+      "blocks": 40,
+      "by_type": {
+        "camera": 19,
+        "action": 6,
+        "dialogue": 14,
+        "sound": 1
+      },
+      "flags": {},
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Short title, e.g. 'Dramatic middle, resolved ending'",
+    "episode": 0,
+    "start": "00:00.00",
+    "end": "00:00.00",
+    "candidate_id": "E00_0000_0000",
+    "selected": "What the tool picked and how it described the hook/cliffhanger (from promos.json).",
+    "why_wrong": "Why a human reviewer judged it wrong or weak (from the blind review notes).",
+    "better_cut": "The better cut (timestamps), or why the clip should simply be rejected.",
+    "fix": "What you would change in the pipeline to prevent this class of failure."
+  }
+]

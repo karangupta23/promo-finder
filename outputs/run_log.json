@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-06T22:13:21+00:00",
+  "stages": [
+    {
+      "stage": "stage_a",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "calls": 739,
+      "api_calls": 340,
+      "cache_hits": 406,
+      "failures": 0,
+      "retries": 7,
+      "input_tokens": 549268,
+      "output_tokens": 221795,
+      "thinking_tokens": 0,
+      "latency_s": 2263.06,
+      "errors": []
+    },
+    {
+      "stage": "stage_b",
+      "provider": "gemini",
+      "model": "gemini-3.6-flash",
+      "calls": 18,
+      "api_calls": 18,
+      "cache_hits": 0,
+      "failures": 0,
+      "retries": 0,
+      "input_tokens": 31629,
+      "output_tokens": 20602,
+      "thinking_tokens": 24259,
+      "latency_s": 284.14,
+      "errors": []
+    },
+    {
+      "stage": "leakage",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "calls": 15,
+      "api_calls": 15,
+      "cache_hits": 0,
+      "failures": 0,
+      "retries": 0,
+      "input_tokens": 29812,
+      "output_tokens": 3966,
+      "thinking_tokens": 0,
+      "latency_s": 111.91,
+      "errors": []
+    }
+  ],
+  "raw_log": "run_log.jsonl",
+  "total_records": 772
+}

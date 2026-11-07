@@ -1,0 +1,100 @@
+{
+  "methods": {
+    "baseline": {
+      "top_n": 10,
+      "pass": 0,
+      "uncertain": 0,
+      "fail": 0,
+      "unlabelled": 10,
+      "precision_at_10": 0.0,
+      "lenient_precision_at_10": 0.0,
+      "per_check_pass": {
+        "hook": 0,
+        "cliffhanger": 0,
+        "comprehension": 0,
+        "editing": 0
+      },
+      "lower_ranked_sample": {
+        "n": 4,
+        "pass": 0,
+        "uncertain": 0,
+        "fail": 0
+      }
+    },
+    "stage_a": {
+      "top_n": 10,
+      "pass": 0,
+      "uncertain": 0,
+      "fail": 0,
+      "unlabelled": 10,
+      "precision_at_10": 0.0,
+      "lenient_precision_at_10": 0.0,
+      "per_check_pass": {
+        "hook": 0,
+        "cliffhanger": 0,
+        "comprehension": 0,
+        "editing": 0
+      },
+      "lower_ranked_sample": {
+        "n": 4,
+        "pass": 0,
+        "uncertain": 0,
+        "fail": 0
+      }
+    },
+    "stage_a_b": {
+      "top_n": 10,
+      "pass": 0,
+      "uncertain": 0,
+      "fail": 0,
+      "unlabelled": 10,
+      "precision_at_10": 0.0,
+      "lenient_precision_at_10": 0.0,
+      "per_check_pass": {
+        "hook": 0,
+        "cliffhanger": 0,
+        "comprehension": 0,
+        "editing": 0
+      },
+      "lower_ranked_sample": {
+        "n": 4,
+        "pass": 0,
+        "uncertain": 0,
+        "fail": 0
+      }
+    }
+  },
+  "unlabelled": [
+    "R001",
+    "R002",
+    "R003",
+    "R004",
+    "R005",
+    "R006",
+    "R007",
+    "R008",
+    "R009",
+    "R010",
+    "R011",
+    "R012",
+    "R013",
+    "R014",
+    "R015",
+    "R016",
+    "R017",
+    "R018",
+    "R019",
+    "R020",
+    "R021",
+    "R022",
+    "R023",
+    "R024",
+    "R025",
+    "R026",
+    "R027",
+    "R028",
+    "R029",
+    "R030"
+  ],
+  "disagreements": []
+}

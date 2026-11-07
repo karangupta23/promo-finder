@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promo Finder — frozen results</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --paper: #ffffff; --ink: #1d1b18; --muted: #6b665d; --line: #e4dfd5;
+    --accent: #b4232c; --pass: #2f7d4f; --unc: #b7791f; --fail: #a33; --chip: #efebe3;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.55 ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 80px; }
+  header h1 { font: 700 34px/1.15 Georgia, "Times New Roman", serif; margin: 0 0 6px; letter-spacing: -0.01em; }
+  header p { margin: 4px 0; color: var(--muted); max-width: 760px; }
+  .banner { margin: 18px 0 0; padding: 10px 14px; border-left: 3px solid var(--accent); background: var(--paper);
+            font-size: 14px; color: var(--muted); }
+  .banner strong { color: var(--ink); }
+  nav { position: sticky; top: 0; background: var(--bg); padding: 10px 0; margin: 18px 0 8px;
+        border-bottom: 1px solid var(--line); z-index: 2; display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; }
+  nav a { color: var(--ink); text-decoration: none; }
+  nav a:hover { color: var(--accent); }
+  h2 { font: 700 22px/1.2 Georgia, serif; margin: 40px 0 12px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+  .stat { background: var(--paper); border: 1px solid var(--line); padding: 12px 14px; border-radius: 6px; }
+  .stat b { display: block; font-size: 24px; font-variant-numeric: tabular-nums; }
+  .stat span { color: var(--muted); font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; background: var(--paper); border: 1px solid var(--line);
+          border-radius: 6px; overflow: hidden; font-size: 14px; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: #faf8f4; font-weight: 600; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .card { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; margin: 14px 0; }
+  .card-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+  .card-head h3 { margin: 0; font: 700 18px/1.3 Georgia, serif; }
+  .ts { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; color: var(--muted); }
+  .chip { display: inline-block; padding: 1px 8px; border-radius: 999px; background: var(--chip); font-size: 12px; margin-right: 4px; }
+  .PASS, .SHORTLIST, .KEEP { color: var(--pass); } .UNCERTAIN, .REVIEW, .TRIM { color: var(--unc); }
+  .FAIL, .REJECT, .DROP { color: var(--fail); }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 12px; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  .label { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 2px; }
+  blockquote { margin: 6px 0 0; padding: 6px 10px; background: #faf8f4; border-left: 2px solid var(--line); font-size: 14px; }
+  blockquote .ts { margin-right: 6px; }
+  .bars { display: grid; grid-template-columns: 120px 1fr 34px; gap: 4px 8px; align-items: center; font-size: 13px; margin-top: 12px; }
+  .bar { height: 6px; background: var(--chip); border-radius: 3px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--ink); }
+  .muted { color: var(--muted); }
+  .empty { padding: 16px; background: var(--paper); border: 1px dashed var(--line); border-radius: 6px; color: var(--muted); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Promo Finder</h1>
+    <p>Finds 20–60 second promo clips in microdrama screenplays: a hook in the first 3 seconds, a cliffhanger at the cut,
+       and a clip that makes sense to a first-time viewer.</p>
+    <div class="banner"><strong>Frozen results.</strong> This page displays the saved output of the Python pipeline
+      run on the 50-episode input pack. It does not process new scripts itself — run <code>python run.py all</code> for that.
+      Only short excerpts of the screenplay are shown.</div>
+    <div id="note" class="banner" style="display:none"></div>
+  </header>
+  <nav>
+    <a href="#overview">Overview</a><a href="#posting">Posting order</a><a href="#promos">Promos</a>
+    <a href="#evaluation" id="nav-eval">Human review</a><a href="#failures">Failure cases</a><a href="#method">How it works</a>
+  </nav>
+
+  <section id="overview"><h2>Overview</h2><div class="stats" id="stats"></div></section>
+  <section id="posting"><h2>Recommended posting order</h2>
+    <p class="muted">Kept separate from the quality ranking: it spreads posts across episodes and slightly favours early
+       episodes, so a new viewer who clicks through lands near the start of the show.</p>
+    <div id="posting-table"></div></section>
+  <section id="promos"><h2>Promos by quality</h2><div id="promo-list"></div></section>
+  <section id="evaluation"><h2>Blind human review</h2><div id="eval"></div></section>
+  <section id="failures"><h2>Failure cases</h2><div id="fail"></div></section>
+  <section id="method"><h2>How it works</h2>
+    <ol>
+      <li><b>Parse</b> every screenplay block (camera, action, sound, dialogue) with its original timestamp and speaker label; flag — never fix — bad timestamps and overlaps.</li>
+      <li><b>Generate candidates</b> two ways: shot-aligned windows (cut on camera boundaries, chosen by their ending) and event-anchored windows (open on a sharp line, a slap, an entrance). Never cut through a line of dialogue.</li>
+      <li><b>Stage A</b> — a cheap model screens every candidate, seeing only the clip's own blocks (no summaries, no later scenes). Code then checks its evidence: cited blocks must exist, the hook must sit in the first 3 s, the cliffhanger near the end.</li>
+      <li><b>Stage B</b> — a stronger model does a skeptical editorial pass on the best, uncertain and possibly-underrated clips: who is this about, what do they want, what's left unanswered, does the clip give its payoff away.</li>
+      <li><b>Rank</b> — hard gates (hook, cliffhanger, standalone), weighted score, overlap removal, then a separate posting order.</li>
+      <li><b>Payoff-leakage check</b> — only now does a model see what happens right after the clip, to catch cliffhangers that resolve instantly.</li>
+    </ol>
+  </section>
+  <footer id="foot"></footer>
+</div>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = (n, d = 1) => (n === null || n === undefined) ? "–" : Number(n).toFixed(d);
+
+function stats(d) {
+  const cov = d.coverage || {}, c = d.counts || {}, cand = d.candidates || {};
+  let calls = 0, toks = 0;
+  for (const s of (d.run_log?.stages || [])) { calls += s.api_calls; toks += s.input_tokens + s.output_tokens + (s.thinking_tokens || 0); }
+  const items = [
+    [cov.episodes_parsed, "episodes parsed"], [cov.blocks_total, "screenplay blocks"],
+    [Math.round((cov.total_runtime_s || 0) / 60) + " min", "of runtime"], [cand.candidates_total ?? c.candidates, "candidate clips"],
+    [c.shortlist, "shortlisted promos"], [c.review, "need human review"], [calls || "—", "model API calls"],
+    [toks ? (toks / 1000).toFixed(0) + "k" : "—", "tokens used"],
+  ];
+  $("stats").innerHTML = items.map(([v, l]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
+}
+
+function posting(d) {
+  if (!d.posting_order?.length) { $("posting-table").innerHTML = `<div class="empty">No shortlisted promos yet.</div>`; return; }
+  $("posting-table").innerHTML = `<table><tr><th>#</th><th>Episode</th><th>Clip</th><th>Quality rank</th><th>Why this slot</th></tr>` +
+    d.posting_order.map(p => `<tr><td class="num">${p.post_rank}</td><td class="num">Ep ${p.episode}</td>
+      <td class="num ts">${esc(p.start)} → ${esc(p.end)}${p.trim_to ? `<br>trim end suggested` : ""}</td>
+      <td class="num">#${p.quality_rank}</td><td>${esc(p.why_this_slot)}${p.posting_rationale ? `<br><span class="muted">${esc(p.posting_rationale)}</span>` : ""}</td></tr>`).join("") + `</table>`;
+}
+
+function evidence(list) {
+  return (list || []).map(e => `<blockquote><span class="ts">${esc(e.at)}</span>${esc(e.text)}</blockquote>`).join("");
+}
+
+function promos(d) {
+  const labels = {hook: "Hook", cliffhanger: "Cliffhanger", standalone: "Standalone", emotional_impact: "Emotion",
+                  pacing: "Pacing", clean_cut: "Clean cut"};
+  $("promo-list").innerHTML = (d.promos || []).map(p => {
+    const g = p.gates || {};
+    const gates = Object.entries(g).map(([k, v]) => `<span class="chip ${v}">${esc(k)}: ${esc(v)}</span>`).join("");
+    const bars = Object.entries(p.scores || {}).map(([k, v]) =>
+      `<span>${labels[k] || k}</span><div class="bar"><i style="width:${Math.max(0, Math.min(100, v * 10))}%"></i></div><span class="num">${fmt(v)}</span>`).join("");
+    const st = p.standalone || {};
+    return `<article class="card">
+      <div class="card-head"><h3>#${p.quality_rank} · Episode ${p.episode}
+        <span class="ts">${esc(p.start)} → ${esc(p.end)} · ${fmt(p.duration_s)} s</span></h3>
+        <div><span class="chip ${p.status}">${esc(p.status)}</span><span class="chip">score ${fmt(p.score)}</span>
+        ${p.leakage ? `<span class="chip ${p.leakage}">leakage: ${esc(p.leakage)}</span>` : ""}</div></div>
+      ${gates ? `<div style="margin-top:8px">${gates}</div>` : ""}
+      <div class="grid">
+        <div><div class="label">Hook (first 3 s)</div>${esc(p.hook.description)}${evidence(p.hook.evidence)}</div>
+        <div><div class="label">Cliffhanger</div>${esc(p.cliffhanger.description)}
+          ${p.cliffhanger.question ? `<div style="margin-top:4px"><i>Leaves open:</i> ${esc(p.cliffhanger.question)}</div>` : ""}
+          ${evidence(p.cliffhanger.evidence)}</div>
+        <div><div class="label">Standalone for a new viewer</div>
+          ${st.central_character ? `<div><i>Centre of the clip:</i> ${esc(st.central_character)}</div>` : ""}
+          ${esc(st.explanation || "—")}
+          ${st.missing_context?.length ? `<div class="muted" style="margin-top:4px">Missing context: ${st.missing_context.map(esc).join("; ")}</div>` : ""}</div>
+        <div><div class="label">Why it works</div>${esc(p.why)}
+          ${p.posting_rationale ? `<div style="margin-top:6px"><i>Posting:</i> ${esc(p.posting_rationale)}</div>` : ""}
+          ${p.risks?.length ? `<div class="muted" style="margin-top:6px">Risks: ${p.risks.map(esc).join("; ")}</div>` : ""}</div>
+      </div>
+      <div class="bars">${bars}</div>
+      <div class="muted" style="font-size:12px;margin-top:8px">Generated by: ${(p.methods || []).map(esc).join(", ")} · scored by ${esc(p.score_source)}</div>
+    </article>`;
+  }).join("") || `<div class="empty">No promos.</div>`;
+}
+
+function evaluation(d) {
+  const e = d.evaluation;
+  if (!e) { $("evaluation").style.display = "none"; $("nav-eval").style.display = "none"; return; }
+  $("eval").innerHTML = `<p class="muted">Top 10 from each method on evaluation episodes 6–50, pooled, shuffled and labelled without knowing which method picked them. precision@10 = share labelled “Pass” (postable as-is).</p>
+  <table><tr><th>Method</th><th>Pass</th><th>Uncertain</th><th>Fail</th><th>precision@10</th><th>Pass + Uncertain</th><th>Lower-ranked sample (Pass / n)</th></tr>` +
+    Object.entries(e.methods).map(([m, r]) => `<tr><td>${esc(m)}</td><td class="num">${r.pass}</td><td class="num">${r.uncertain}</td>
+    <td class="num">${r.fail}</td><td class="num"><b>${fmt(r.precision_at_10, 2)}</b></td><td class="num">${fmt(r.lenient_precision_at_10, 2)}</td>
+    <td class="num">${r.lower_ranked_sample.pass} / ${r.lower_ranked_sample.n}</td></tr>`).join("") + `</table>`;
+}
+
+function failures(d) {
+  const f = d.failure_cases || [];
+  if (!f.length) { $("failures").style.display = "none"; return; }
+  $("fail").innerHTML = f.map(x => `<article class="card"><div class="card-head"><h3>${esc(x.title)}</h3>
+    <span class="ts">Ep ${esc(x.episode)} · ${esc(x.start)} → ${esc(x.end)}</span></div>
+    <div class="grid"><div><div class="label">What the tool picked</div>${esc(x.selected)}</div>
+    <div><div class="label">Why it's wrong or weak</div>${esc(x.why_wrong)}</div>
+    <div><div class="label">Better cut / reject</div>${esc(x.better_cut)}</div>
+    <div><div class="label">Pipeline change</div>${esc(x.fix)}</div></div></article>`).join("");
+}
+
+fetch("data.json").then(r => r.json()).then(d => {
+  if (d.note) { $("note").style.display = "block"; $("note").innerHTML = `<strong>Note.</strong> ${esc(d.note)}`; }
+  stats(d); posting(d); promos(d); evaluation(d); failures(d);
+  $("foot").textContent = `Ranking method: ${d.ranking_method} · generated ${d.generated_at}`;
+}).catch(err => { document.body.insertAdjacentHTML("afterbegin", `<p style="color:#a33;padding:20px">Could not load data.json: ${esc(err)}</p>`); });
+</script>
+</body>
+</html>

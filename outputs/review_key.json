@@ -1,0 +1,230 @@
+{
+  "seed": "kuku-blind-v1",
+  "labels": "Pass / Uncertain / Fail",
+  "items": {
+    "R001": {
+      "candidate_id": "E15_0448_0860",
+      "top10_ranks": {
+        "baseline": 1,
+        "stage_a": 6
+      },
+      "lower_sample_ranks": {}
+    },
+    "R002": {
+      "candidate_id": "E32_1195_1544",
+      "top10_ranks": {
+        "stage_a_b": 2
+      },
+      "lower_sample_ranks": {}
+    },
+    "R003": {
+      "candidate_id": "E29_0830_1128",
+      "top10_ranks": {
+        "stage_a": 8
+      },
+      "lower_sample_ranks": {}
+    },
+    "R004": {
+      "candidate_id": "E28_1130_1385",
+      "top10_ranks": {
+        "baseline": 8,
+        "stage_a": 2
+      },
+      "lower_sample_ranks": {}
+    },
+    "R005": {
+      "candidate_id": "E43_0162_0570",
+      "top10_ranks": {
+        "baseline": 6
+      },
+      "lower_sample_ranks": {}
+    },
+    "R006": {
+      "candidate_id": "E29_0374_0743",
+      "top10_ranks": {
+        "baseline": 7
+      },
+      "lower_sample_ranks": {}
+    },
+    "R007": {
+      "candidate_id": "E28_0789_1385",
+      "top10_ranks": {
+        "stage_a_b": 4
+      },
+      "lower_sample_ranks": {}
+    },
+    "R008": {
+      "candidate_id": "E35_1220_1500",
+      "top10_ranks": {},
+      "lower_sample_ranks": {
+        "baseline": 33
+      }
+    },
+    "R009": {
+      "candidate_id": "E15_0225_0620",
+      "top10_ranks": {
+        "stage_a": 5
+      },
+      "lower_sample_ranks": {}
+    },
+    "R010": {
+      "candidate_id": "E45_0865_1218",
+      "top10_ranks": {
+        "stage_a": 9,
+        "stage_a_b": 5
+      },
+      "lower_sample_ranks": {}
+    },
+    "R011": {
+      "candidate_id": "E44_0388_0638",
+      "top10_ranks": {},
+      "lower_sample_ranks": {
+        "stage_a_b": 30
+      }
+    },
+    "R012": {
+      "candidate_id": "E28_0705_1078",
+      "top10_ranks": {},
+      "lower_sample_ranks": {
+        "baseline": 16
+      }
+    },
+    "R013": {
+      "candidate_id": "E12_0437_0872",
+      "top10_ranks": {
+        "stage_a": 1,
+        "stage_a_b": 1
+      },
+      "lower_sample_ranks": {}
+    },
+    "R014": {
+      "candidate_id": "E46_0780_1240",
+      "top10_ranks": {
+        "stage_a": 10,
+        "stage_a_b": 6
+      },
+      "lower_sample_ranks": {}
+    },
+    "R015": {
+      "candidate_id": "E15_0035_0565",
+      "top10_ranks": {
+        "baseline": 5
+      },
+      "lower_sample_ranks": {}
+    },
+    "R016": {
+      "candidate_id": "E13_0780_1120",
+      "top10_ranks": {},
+      "lower_sample_ranks": {
+        "baseline": 12
+      }
+    },
+    "R017": {
+      "candidate_id": "E07_0615_0840",
+      "top10_ranks": {},
+      "lower_sample_ranks": {
+        "stage_a": 15
+      }
+    },
+    "R018": {
+      "candidate_id": "E36_1630_2008",
+      "top10_ranks": {
+        "baseline": 2
+      },
+      "lower_sample_ranks": {
+        "stage_a": 30,
+        "stage_a_b": 35
+      }
+    },
+    "R019": {
+      "candidate_id": "E13_0620_1070",
+      "top10_ranks": {
+        "stage_a_b": 10
+      },
+      "lower_sample_ranks": {}
+    },
+    "R020": {
+      "candidate_id": "E18_0021_0228",
+      "top10_ranks": {
+        "stage_a": 7,
+        "stage_a_b": 9
+      },
+      "lower_sample_ranks": {}
+    },
+    "R021": {
+      "candidate_id": "E47_0635_1085",
+      "top10_ranks": {
+        "stage_a": 3,
+        "stage_a_b": 8
+      },
+      "lower_sample_ranks": {}
+    },
+    "R022": {
+      "candidate_id": "E31_1380_1600",
+      "top10_ranks": {
+        "stage_a_b": 3
+      },
+      "lower_sample_ranks": {}
+    },
+    "R023": {
+      "candidate_id": "E11_0600_0813",
+      "top10_ranks": {
+        "baseline": 10
+      },
+      "lower_sample_ranks": {}
+    },
+    "R024": {
+      "candidate_id": "E11_0143_0510",
+      "top10_ranks": {
+        "baseline": 4
+      },
+      "lower_sample_ranks": {
+        "stage_a": 27
+      }
+    },
+    "R025": {
+      "candidate_id": "E28_0474_0865",
+      "top10_ranks": {},
+      "lower_sample_ranks": {
+        "baseline": 35
+      }
+    },
+    "R026": {
+      "candidate_id": "E30_0000_0334",
+      "top10_ranks": {},
+      "lower_sample_ranks": {
+        "stage_a": 21,
+        "stage_a_b": 26
+      }
+    },
+    "R027": {
+      "candidate_id": "E11_0618_0992",
+      "top10_ranks": {
+        "stage_a": 4,
+        "stage_a_b": 7
+      },
+      "lower_sample_ranks": {}
+    },
+    "R028": {
+      "candidate_id": "E28_0267_0668",
+      "top10_ranks": {
+        "baseline": 9
+      },
+      "lower_sample_ranks": {}
+    },
+    "R029": {
+      "candidate_id": "E16_0488_0832",
+      "top10_ranks": {
+        "baseline": 3
+      },
+      "lower_sample_ranks": {}
+    },
+    "R030": {
+      "candidate_id": "E47_1012_1340",
+      "top10_ranks": {},
+      "lower_sample_ranks": {
+        "stage_a_b": 17
+      }
+    }
+  }
+}

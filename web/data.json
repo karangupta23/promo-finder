@@ -1,0 +1,1294 @@
+{
+  "generated_at": "2026-11-06T22:13:21+00:00",
+  "ranking_method": "stage_a_b",
+  "note": null,
+  "counts": {
+    "candidates": 333,
+    "invalid": 0,
+    "after_overlap_removal": 153,
+    "shortlist": 48,
+    "review": 63,
+    "rejected": 42,
+    "leakage_drop": 0
+  },
+  "posting_order": [
+    {
+      "post_rank": 1,
+      "candidate_id": "E12_0437_0872",
+      "episode": 12,
+      "start": "00:43.70",
+      "end": "01:27.21",
+      "quality_rank": 1,
+      "posting_score": 93.0,
+      "why_this_slot": "quality score 93.0",
+      "posting_rationale": "Post as a high-performing top-of-funnel paid promo ad. The sadistic premise and heroine defiance drive immediate emotional engagement and strong click-through rates.",
+      "trim_to": null
+    },
+    {
+      "post_rank": 2,
+      "candidate_id": "E32_1195_1544",
+      "episode": 32,
+      "start": "01:59.50",
+      "end": "02:34.38",
+      "quality_rank": 2,
+      "posting_score": 93.0,
+      "why_this_slot": "quality score 93.0",
+      "posting_rationale": "This clip contains all the classic ingredients of viral vertical drama promos: high visual tension, strong female rivalry, iconic dialogue delivery, and an extreme close-up cliffhanger.",
+      "trim_to": null
+    },
+    {
+      "post_rank": 3,
+      "candidate_id": "E31_1380_1600",
+      "episode": 31,
+      "start": "02:18.00",
+      "end": "02:40.00",
+      "quality_rank": 3,
+      "posting_score": 92.0,
+      "why_this_slot": "quality score 92.0",
+      "posting_rationale": "High-performing torture/villainy ad creative with high viral potential on TikTok/ReelShort formats. Drives high click-through to find out if she gets branded.",
+      "trim_to": null
+    },
+    {
+      "post_rank": 4,
+      "candidate_id": "E01_0110_0504",
+      "episode": 1,
+      "start": "00:11.00",
+      "end": "00:50.40",
+      "quality_rank": 17,
+      "posting_score": 90.0,
+      "why_this_slot": "quality score 86.0; +4 early-episode bonus: a viewer who clicks starts the show almost from the beginning",
+      "posting_rationale": null,
+      "trim_to": null
+    },
+    {
+      "post_rank": 5,
+      "candidate_id": "E02_0028_0372",
+      "episode": 2,
+      "start": "00:02.80",
+      "end": "00:37.20",
+      "quality_rank": 20,
+      "posting_score": 90.0,
+      "why_this_slot": "quality score 86.0; +4 early-episode bonus: a viewer who clicks starts the show almost from the beginning",
+      "posting_rationale": null,
+      "trim_to": null
+    },
+    {
+      "post_rank": 6,
+      "candidate_id": "E01_0390_0814",
+      "episode": 1,
+      "start": "00:39.00",
+      "end": "01:21.40",
+      "quality_rank": 18,
+      "posting_score": 90.0,
+      "why_this_slot": "quality score 86.0; +4 early-episode bonus: a viewer who clicks starts the show almost from the beginning",
+      "posting_rationale": null,
+      "trim_to": null
+    },
+    {
+      "post_rank": 7,
+      "candidate_id": "E05_0335_0725",
+      "episode": 5,
+      "start": "00:33.50",
+      "end": "01:12.50",
+      "quality_rank": 21,
+      "posting_score": 90.0,
+      "why_this_slot": "quality score 86.0; +4 early-episode bonus: a viewer who clicks starts the show almost from the beginning",
+      "posting_rationale": null,
+      "trim_to": null
+    },
+    {
+      "post_rank": 8,
+      "candidate_id": "E03_0583_0855",
+      "episode": 3,
+      "start": "00:58.30",
+      "end": "01:25.50",
+      "quality_rank": 9,
+      "posting_score": 89.5,
+      "why_this_slot": "quality score 85.5; +4 early-episode bonus: a viewer who clicks starts the show almost from the beginning",
+      "posting_rationale": "High conversion potential for paid social due to immediate hook, strong visual storytelling, and an explosive finish.",
+      "trim_to": 80.9
+    },
+    {
+      "post_rank": 9,
+      "candidate_id": "E05_0540_0965",
+      "episode": 5,
+      "start": "00:54.00",
+      "end": "01:36.50",
+      "quality_rank": 26,
+      "posting_score": 89.0,
+      "why_this_slot": "quality score 85.0; +4 early-episode bonus: a viewer who clicks starts the show almost from the beginning",
+      "posting_rationale": null,
+      "trim_to": null
+    },
+    {
+      "post_rank": 10,
+      "candidate_id": "E28_0789_1385",
+      "episode": 28,
+      "start": "01:18.90",
+      "end": "02:18.50",
+      "quality_rank": 4,
+      "posting_score": 88.5,
+      "why_this_slot": "quality score 88.5",
+      "posting_rationale": "This is a prime candidate for paid social acquisition because it hits classic tropes (hidden identity, fallen noble, framing for witchcraft) with relentless dramatic escalation.",
+      "trim_to": null
+    }
+  ],
+  "promos": [
+    {
+      "id": "E12_0437_0872",
+      "quality_rank": 1,
+      "status": "SHORTLIST",
+      "episode": 12,
+      "start": "00:43.70",
+      "end": "01:27.21",
+      "duration_s": 43.51,
+      "score": 93.0,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 10,
+        "cliffhanger": 9,
+        "standalone": 9,
+        "emotional_impact": 9,
+        "pacing": 9,
+        "clean_cut": 10
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "Clarissa turns coldly to her sister and demands to see her crawl in the first two seconds.",
+        "evidence": [
+          {
+            "at": "00:43.70",
+            "text": "Medium two-shot of Clarissa in the foreground, turning slowly to face Juliana."
+          },
+          {
+            "at": "00:44.00",
+            "text": "\"I want to see you crawl, sister.\""
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "Juliana agrees to the torture to save her husband and sharply demands, 'Tell me where the garden is.'",
+        "question": "Will Juliana be able to retrieve the signet ring barehanded from the frozen thorns, or will her husband still face the gallows?",
+        "evidence": [
+          {
+            "at": "01:21.80",
+            "text": "Over-the-shoulder shot past Clarissa onto Juliana's determined face, holding on her fierce, defiant stare as the tension peaks."
+          },
+          {
+            "at": "01:22.80",
+            "text": "\"Tell me where the garden is.\""
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The clip cleanly establishes the antagonist, the absurdly cruel condition to drop charges, the husband's objection, and the heroine's sacrificial decision.",
+        "central_character": "Juliana, a sacrificial woman forced to make a cruel choice to protect her husband.",
+        "missing_context": []
+      },
+      "why": "Pits classic villainous cruelty against self-sacrificing love with high physical stakes and perfect pacing.",
+      "posting_rationale": "Post as a high-performing top-of-funnel paid promo ad. The sadistic premise and heroine defiance drive immediate emotional engagement and strong click-through rates.",
+      "risks": [
+        "Mild risk of graphic mention of injury ('hands shredded to ribbons')."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:dialogue+backfill"
+      ]
+    },
+    {
+      "id": "E32_1195_1544",
+      "quality_rank": 2,
+      "status": "SHORTLIST",
+      "episode": 32,
+      "start": "01:59.50",
+      "end": "02:34.38",
+      "duration_s": 34.88,
+      "score": 93.0,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 10,
+        "standalone": 9,
+        "emotional_impact": 9,
+        "pacing": 9,
+        "clean_cut": 10
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A hysterical woman brandishes a red-hot branding poker and screams while a chained prisoner looks on unbothered.",
+        "evidence": [
+          {
+            "at": "01:59.50",
+            "text": "Medium shot of Catherine snapping entirely, raising the branding poker like a weapon and screaming."
+          },
+          {
+            "at": "01:59.60",
+            "text": "\"Silence! Silence!\""
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "A glowing branding poker is thrust directly toward a woman's open eye, stopping millimeters from her cornea before cutting to black.",
+        "question": "Will the searing hot branding iron burn Juliana's eye or will the attack be stopped?",
+        "evidence": [
+          {
+            "at": "02:30.80",
+            "text": "Medium shot of Catherine plunging the glowing orange poker straight toward Juliana's face."
+          },
+          {
+            "at": "02:31.20",
+            "text": "Juliana gasps, freezing as the glowing tip of the iron thrusts forward, stopping mere millimeters from her right eye."
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The prisoner-versus-torturer dynamic and power struggle are completely transparent without needing prior context.",
+        "central_character": "The chained prisoner (Juliana) defying her maniacal captor holding a glowing branding iron.",
+        "missing_context": [
+          "The historical/political backstory regarding the title Catherine holds and why Juliana was chained in the dungeon."
+        ]
+      },
+      "why": "Flawless escalation from bitter psychological defiance to extreme physical jeopardy with a picture-perfect cliffhanger frame.",
+      "posting_rationale": "This clip contains all the classic ingredients of viral vertical drama promos: high visual tension, strong female rivalry, iconic dialogue delivery, and an extreme close-up cliffhanger.",
+      "risks": [
+        "Graphic threat of physical violence/torture near the eye may trigger strict ad network content filters."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:dialogue",
+        "shot:cliffhanger"
+      ]
+    },
+    {
+      "id": "E31_1380_1600",
+      "quality_rank": 3,
+      "status": "SHORTLIST",
+      "episode": 31,
+      "start": "02:18.00",
+      "end": "02:40.00",
+      "duration_s": 22.0,
+      "score": 92.0,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 10,
+        "standalone": 8,
+        "emotional_impact": 10,
+        "pacing": 9,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A weeping woman bound in heavy iron chains desperately gasps 'Give it back!' in extreme close-up.",
+        "evidence": [
+          {
+            "at": "02:18.00",
+            "text": "Extreme close-up of Juliana, her emotional composure breaking into pure grief and panic."
+          },
+          {
+            "at": "02:18.00",
+            "text": "Tears spill rapidly down Juliana's cheeks as she reaches forward in vain, restrained by her heavy iron chains."
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "A sadistic captor thrusts a glowing orange branding iron inches from the bound victim's eye, holding on a macro shot of the ember reflected in her pupil.",
+        "question": "Will Catherine brand Juliana's face and blind her, or will someone intervene?",
+        "evidence": [
+          {
+            "at": "02:31.20",
+            "text": "Low-angle medium shot. Catherine lowers the charred book and suddenly swings the glowing orange iron tip straight up toward Juliana's face."
+          },
+          {
+            "at": "02:31.50",
+            "text": "Juliana recoils back against the hard dungeon wall, gasping for breath in raw terror as the searing iron stops inches from her eyes."
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The core dynamic of villain tormenting a chained prisoner is instantly readable even without backstory.",
+        "central_character": "The chained woman imprisoned in a dungeon (Juliana).",
+        "missing_context": [
+          "Why Juliana is imprisoned in chains",
+          "What significance her mother's book holds"
+        ]
+      },
+      "why": "Immediate high emotional stakes escalate seamlessly into an unbearable physical threat that cuts at the perfect split-second peak.",
+      "posting_rationale": "High-performing torture/villainy ad creative with high viral potential on TikTok/ReelShort formats. Drives high click-through to find out if she gets branded.",
+      "risks": [
+        "Content moderation review for violence/torture intensity (hot iron near eyes)"
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:action",
+        "event:dialogue"
+      ]
+    },
+    {
+      "id": "E28_0789_1385",
+      "quality_rank": 4,
+      "status": "SHORTLIST",
+      "episode": 28,
+      "start": "01:18.90",
+      "end": "02:18.50",
+      "duration_s": 59.6,
+      "score": 88.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 9,
+        "standalone": 8,
+        "emotional_impact": 9,
+        "pacing": 9,
+        "clean_cut": 10
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A silver locket flies across the floor as a cruel voice proclaims that witches don't need heirlooms on the gallows.",
+        "evidence": [
+          {
+            "at": "01:18.90",
+            "text": "Low-angle shot tracking the silver locket as Catherine casually flings it across the stone corridor floor."
+          },
+          {
+            "at": "01:19.00",
+            "text": "\"A witch has no need for family heirlooms in the gallows.\""
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "Catherine threatens that the magistrate will send Juliana to the gallows while guards drag her screaming into the dark wet cells.",
+        "question": "Will Catherine successfully use the herbarium to have Juliana executed for witchcraft, or will Juliana find a way to escape the wet cells?",
+        "evidence": [
+          {
+            "at": "02:11.40",
+            "text": "\"Then perhaps you can explain every page to the magistrate...\""
+          },
+          {
+            "at": "02:14.60",
+            "text": "\"...before he sends you to the gallows.\""
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The clip provides complete clarity on the dynamic: Catherine is the haughty antagonist uncovering the hidden identity of Juliana, a disgraced noblewoman now working as a servant, and using her herbarium to frame her for witchcraft.",
+        "central_character": "Juliana, a fallen noblewoman working as a house servant whose secret identity and mother's herbarium are exposed by her…",
+        "missing_context": [
+          "Why Juliana was forced to hide her true identity as a maid.",
+          "The full history between Catherine and Juliana's family."
+        ]
+      },
+      "why": "High drama, clear villain-heroine dynamics, a secret identity reveal, and a life-or-death cliffhanger keep viewers hooked.",
+      "posting_rationale": "This is a prime candidate for paid social acquisition because it hits classic tropes (hidden identity, fallen noble, framing for witchcraft) with relentless dramatic escalation.",
+      "risks": [
+        "Viewers unfamiliar with the show might wonder how a book of herbs instantly translates to witchcraft proof, but the drama overrides the log…"
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:dialogue+backfill"
+      ]
+    },
+    {
+      "id": "E45_0865_1218",
+      "quality_rank": 5,
+      "status": "SHORTLIST",
+      "episode": 45,
+      "start": "01:26.50",
+      "end": "02:01.75",
+      "duration_s": 35.25,
+      "score": 88.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 9,
+        "standalone": 8,
+        "emotional_impact": 9,
+        "pacing": 9,
+        "clean_cut": 10
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "Cathedral doors violently slam open accompanied by a loud thud as the High Priest commands the wedding party to stop.",
+        "evidence": [
+          {
+            "at": "01:26.50",
+            "text": "Wide tracking shot down the cathedral aisle as the massive wooden entrance doors slam open, framed by blinding daylight and mist."
+          },
+          {
+            "at": "01:26.50",
+            "text": "Loud, echoing thud of cathedral doors swinging open violently."
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "An armed officer draws a sword while Catherine smiles vindictively under her veil as Juliana's marriage is declared invalid.",
+        "question": "Will Alexander fight the Crown officer to protect Juliana, and what plot will Catherine execute now that Juliana's title is void?",
+        "evidence": [
+          {
+            "at": "01:45.80",
+            "text": "Medium shot of Alexander shielding Juliana behind him as the Crown officer approaches with drawn sword."
+          },
+          {
+            "at": "01:53.20",
+            "text": "Close-up two-shot of Juliana gasping in terror, clutching Alexander's hand tightly as Alexander glares at the Priest."
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The High Priest explicitly announces the situation and consequences aloud, making the conflict completely clear to a cold viewer.",
+        "central_character": "The newly married bride (Juliana), who faces sudden devastation as her marriage is publicly delegitimized.",
+        "missing_context": [
+          "The specific reason why their marriage lacked a Crown license.",
+          "The full backstory of Catherine and her prior relationship to Alexander."
+        ]
+      },
+      "why": "Immediate explosive opening, clear high-stakes dramatic revelation, and an intensely satisfying villain twist ending.",
+      "posting_rationale": "High-performing vertical promo candidate due to top-tier visual production, clear dialogue context, and strong emotional contrast between the panicked bride and triumphant rival.",
+      "risks": [
+        "Viewers unfamiliar with the show won't know Catherine's exact backstory, though her role as rival is instantly clear visually."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:action"
+      ]
+    },
+    {
+      "id": "E46_0780_1240",
+      "quality_rank": 6,
+      "status": "SHORTLIST",
+      "episode": 46,
+      "start": "01:18.00",
+      "end": "02:04.00",
+      "duration_s": 46.0,
+      "score": 88.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 9,
+        "standalone": 8,
+        "emotional_impact": 9,
+        "pacing": 9,
+        "clean_cut": 10
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "Extreme close-up of a bride shouting that the church calls her marriage a lie.",
+        "evidence": [
+          {
+            "at": "01:18.00",
+            "text": "Extreme close-up on Juliana's face as she shouts at the priest."
+          },
+          {
+            "at": "01:18.10",
+            "text": "\"Now a church calls my marriage a lie!\""
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "The High Priest grants a ten-day trial, promising that the county will watch the Duke lose his bride twice.",
+        "question": "Will the High Religious Council rule against Alexander in ten days and strip away his marriage?",
+        "evidence": [
+          {
+            "at": "01:58.50",
+            "text": "Wide profile two-shot of the High Priest and Alexander locked in an intense standoff before the altar."
+          },
+          {
+            "at": "01:58.80",
+            "text": "\"Ten days. And if the council rules against you, this county watches you lose her twice.\""
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The stakes, power dynamic, and high drama of church authority attempting to annul a Duke's secret/unlicensed marriage are crystal clear.",
+        "central_character": "The fiery bride (Juliana) and her noble husband (Alexander) defending the validity of their marriage against church aut…",
+        "missing_context": [
+          "The exact identity of Catherine smiling in the background, though her malicious role is instantly understood."
+        ]
+      },
+      "why": "Flawless dramatic arc starting with explosive passion and concluding with a tense, timed cliffhanger.",
+      "posting_rationale": "High-performing paid social candidate suitable for broad distribution; delivers intense confrontation, clear stakes, and a strong urge to click next episode.",
+      "risks": [
+        "Minor period drama terminology (halberds, peerage court) could require brief mental processing, but emotional clarity compensates entirely."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:dialogue",
+        "shot:cliffhanger"
+      ]
+    },
+    {
+      "id": "E11_0618_0992",
+      "quality_rank": 7,
+      "status": "SHORTLIST",
+      "episode": 11,
+      "start": "01:01.80",
+      "end": "01:39.20",
+      "duration_s": 37.4,
+      "score": 88.0,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 9,
+        "standalone": 8,
+        "emotional_impact": 9,
+        "pacing": 9,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A woman crawls crying on the floor begging a constable searching her home, while a villainous lord watches with a sneer.",
+        "evidence": [
+          {
+            "at": "01:01.80",
+            "text": "Low-angle close-up of Juliana crawling on the floor, looking up with tears streaming down her cheeks."
+          },
+          {
+            "at": "01:01.80",
+            "text": "\"Please! There is nothing here!\""
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "The constable reaches inside the soldier's coat hanging by the fire and pulls out a luxury gold pocket watch as the lead woman gasps in horror.",
+        "question": "How will Juliana and Alexander prove he was framed now that the stolen gold watch has been found in his coat?",
+        "evidence": [
+          {
+            "at": "01:33.20",
+            "text": "Close-up of the Constable's hand sliding deep inside the inner coat lining and withdrawing a gleaming gold pocket watch with an attached chain."
+          },
+          {
+            "at": "01:36.80",
+            "text": "Extreme close-up of Juliana gasping in sheer horror, her eyes welling with shock and shattered disbelief."
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The dialogue quickly establishes the entire dynamic: jealous wealthy gentleman framing his ex-wife's new lower-class soldier partner.",
+        "central_character": "Juliana, a panicked woman trying desperately to protect her cottage and new partner from her vengeful ex.",
+        "missing_context": [
+          "The exact legal standing of Gerald and Juliana's past marriage vs her relationship with Alexander."
+        ]
+      },
+      "why": "High-stakes melodrama with clear villainy, emotional vulnerability, and a devastating framing twist right at the end.",
+      "posting_rationale": "Ideal for top-of-funnel paid social targeting fans of period romance, framed-hero tropes, and revenge/redemption drama.",
+      "risks": [
+        "High drama voice over / dialogue might feel intense, but fits microdrama tropes standardly."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:dialogue"
+      ]
+    },
+    {
+      "id": "E47_0635_1085",
+      "quality_rank": 8,
+      "status": "SHORTLIST",
+      "episode": 47,
+      "start": "01:03.50",
+      "end": "01:48.50",
+      "duration_s": 45.0,
+      "score": 87.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 8,
+        "standalone": 9,
+        "emotional_impact": 9,
+        "pacing": 9,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A hysterical woman collapses sobbing on the wet pavement, crying out that her family disowned her.",
+        "evidence": [
+          {
+            "at": "01:03.50",
+            "text": "Low-angle shot tracking Catherine clutching her chest in agony."
+          },
+          {
+            "at": "01:03.50",
+            "text": "\"London closed its doors! My family disowned me!\""
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "Juliana gets inches from Catherine's face and commands her to scrub the floors she walked on as an impostor.",
+        "question": "Will Catherine submit to the ultimate humiliation of scrubbing floors as a scullery maid, or will she walk away into total ruin?",
+        "evidence": [
+          {
+            "at": "01:44.80",
+            "text": "Dramatic profile two-shot of Juliana standing inches away from Catherine, dominating the confrontation."
+          },
+          {
+            "at": "01:45.20",
+            "text": "\"You will scrub the floors you walked on as an impostor.\""
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The dynamic and plot are immediately readable: a caught villain is spared brutal banishment only to be subjected to poetic punishment as a servant.",
+        "central_character": "the disgraced fallen woman begging for mercy on the ground",
+        "missing_context": [
+          "The exact history of Catherine's crime/poisoning scheme against Lady Ashbourne and Juliana.",
+          "How Catherine successfully posed as an impostor before being exposed."
+        ]
+      },
+      "why": "It delivers high-class drama, rapid power shifts, and a deeply satisfying revenge dynamic that compels viewers to click through.",
+      "posting_rationale": "Post as a high-tier promo asset targeting fans of betrayal, revenge, and period/estate drama tropes.",
+      "risks": [
+        "Viewers without context won't know the exact mechanism of the prior poisoning attempt, but the dramatic tension compensates fully."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:dialogue+backfill"
+      ]
+    },
+    {
+      "id": "E03_0583_0855",
+      "quality_rank": 9,
+      "status": "SHORTLIST",
+      "episode": 3,
+      "start": "00:58.30",
+      "end": "01:25.50",
+      "duration_s": 27.2,
+      "score": 85.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 8,
+        "standalone": 8,
+        "emotional_impact": 9,
+        "pacing": 9,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A noble matriarch orders guards to drag a screaming woman out of a cathedral.",
+        "evidence": [
+          {
+            "at": "00:58.20",
+            "text": "The Noble Matriarch turns sharply toward the back of the chapel and barks an order."
+          },
+          {
+            "at": "00:58.30",
+            "text": "\"Guards! Remove her!\""
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "The mysterious stranger delivers a single knockout blow to an armed guard, dropping him to the chapel floor.",
+        "question": "who is this mysterious man, and how will the matriarch and remaining guards respond to him assaulting royal security?",
+        "evidence": [
+          {
+            "at": "01:24.00",
+            "text": "Medium action shot as the guard charges toward The Bearded Stranger."
+          },
+          {
+            "at": "01:24.00",
+            "text": "The Bearded Stranger effortlessly blocks the guard's strike and drives a devastating strike into him, dropping the armed guard instantly to the floor."
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The situation (a woman dragged away by guards interrupted by a mysterious protector) is instantly clear to any new viewer.",
+        "central_character": "the rugged stranger in the dark trench coat",
+        "missing_context": [
+          "Why Lady Juliana is being forcibly dragged out of the family chapel on orders of the Noble Matriarch."
+        ]
+      },
+      "why": "Classic high-stakes hero entrance with instant physical action and clear emotional stakes.",
+      "posting_rationale": "High conversion potential for paid social due to immediate hook, strong visual storytelling, and an explosive finish.",
+      "risks": [
+        "Slightly cliché hero rescue tropes, but highly effective for short-form drama audience."
+      ],
+      "leakage": "TRIM",
+      "methods": [
+        "event:action",
+        "event:dialogue",
+        "shot:cliffhanger"
+      ]
+    },
+    {
+      "id": "E18_0021_0228",
+      "quality_rank": 10,
+      "status": "SHORTLIST",
+      "episode": 18,
+      "start": "00:02.10",
+      "end": "00:22.80",
+      "duration_s": 20.7,
+      "score": 85.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 8,
+        "standalone": 8,
+        "emotional_impact": 9,
+        "pacing": 9,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A woman wakes up choking and gasping for air as smoke fills her bedroom.",
+        "evidence": [
+          {
+            "at": "00:02.10",
+            "text": "Close-up overhead shot of Juliana asleep on her pillow as her eyelids flutter open, gasping and coughing violently from the choking smoke."
+          },
+          {
+            "at": "00:03.50",
+            "text": "Juliana coughs, her eyes widening in immediate alarm as the smell of burning wood fills her lungs."
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "Alexander kicks open the burning door and orders her to get up as flames surround them.",
+        "question": "Will Alexander be able to pull Juliana out of the blazing fire in time?",
+        "evidence": [
+          {
+            "at": "00:19.50",
+            "text": "A violent crash as the bedroom door is kicked open."
+          },
+          {
+            "at": "00:20.10",
+            "text": "Framed in the doorway engulfed by blazing orange light, Alexander bursts in, his dark hair flying, looking like an imposing guardian amid the smoke."
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The visual narrative of being trapped in a fire and screaming for help before someone breaches the room is completely clear without prior context.",
+        "central_character": "Juliana, a woman who wakes up trapped in a burning bedroom.",
+        "missing_context": [
+          "Why her hands are bandaged",
+          "Who set the fire or how it started"
+        ]
+      },
+      "why": "Immediate physical jeopardy coupled with intense romance drama tropes creates a compelling 20-second hook.",
+      "posting_rationale": "High conversion potential for paid ads; strong visual hook and action cliffhanger ideal for vertical social video feeds.",
+      "risks": [
+        "Fire effect quality must look believable on mobile screens."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:action+backfill"
+      ]
+    },
+    {
+      "id": "E13_0620_1070",
+      "quality_rank": 11,
+      "status": "SHORTLIST",
+      "episode": 13,
+      "start": "01:02.00",
+      "end": "01:47.00",
+      "duration_s": 45.0,
+      "score": 84.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 8,
+        "cliffhanger": 9,
+        "standalone": 8,
+        "emotional_impact": 9,
+        "pacing": 8,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A cruel villain taunts a woman from a balcony, telling her that her husband's freedom is hidden somewhere in a thorny garden.",
+        "evidence": [
+          {
+            "at": "01:02.00",
+            "text": "Gerald leans his hands on the terrace railing, sneering callously."
+          },
+          {
+            "at": "01:02.00",
+            "text": "Low-angle medium close-up of Gerald shouting down into the garden."
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "After crawling through severe brambles and lacerating her hands, Juliana's bloody finger touches an emerald gold ring buried in frozen dirt.",
+        "question": "Will touching and retrieving the emerald ring actually win her husband's freedom from Gerald?",
+        "evidence": [
+          {
+            "at": "01:43.00",
+            "text": "Her blood-smeared index finger brushes against a solid metallic object half-buried in the frozen dirt beneath a thorny branch."
+          },
+          {
+            "at": "01:43.00",
+            "text": "Extreme close-up macro shot of an ornate antique gold ring set with a massive, radiant emerald resting in the frosted soil."
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The relationship, conflict, and goal are crystal clear: Gerald is holding Alexander captive while compelling Juliana to search through pain for the ring.",
+        "central_character": "Juliana, the desperate wife crawling through a frozen thorn patch to save her husband.",
+        "missing_context": [
+          "Why Gerald forced Juliana into this bargain or how he ended up holding Alexander captive with the Constable.",
+          "The exact significance of the emerald ring."
+        ]
+      },
+      "why": "Visceral physical suffering mixed with high emotional stakes leads seamlessly into a perfect object-discovery cliffhanger.",
+      "posting_rationale": "This clip has excellent performance potential on vertical platforms (TikTok/FB/IG ads) due to strong bodily sympathy, villain cruelty, and an unbeatable final frame reveal.",
+      "risks": [
+        "High graphic intensity/blood from thorn cuts might trigger minor content moderation flags on certain ad networks depending on policy strict…"
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:dialogue+backfill"
+      ]
+    },
+    {
+      "id": "E15_0225_0620",
+      "quality_rank": 12,
+      "status": "SHORTLIST",
+      "episode": 15,
+      "start": "00:22.50",
+      "end": "01:02.00",
+      "duration_s": 39.5,
+      "score": 84.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 8,
+        "cliffhanger": 9,
+        "standalone": 8,
+        "emotional_impact": 9,
+        "pacing": 8,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A woman with bandaged hands drops into the cold mud begging thugs to spare her crushed plants.",
+        "evidence": [
+          {
+            "at": "00:22.50",
+            "text": "High-angle two-shot as Juliana rushes forward and drops directly onto her knees in the cold mud before the thug."
+          },
+          {
+            "at": "00:22.80",
+            "text": "Juliana frantically tries to scoop the crushed soil and torn stems back into the bed with her bandaged hands."
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "A thug hoists a heavy wooden club to smash her mother's remaining plants as she screams in horror.",
+        "question": "Will anyone intervene before the thug smashes her mother's remaining plants or harms Juliana further?",
+        "evidence": [
+          {
+            "at": "01:00.00",
+            "text": "The Tall Thug hoists his heavy wooden club above his head to crush the remaining herbs right before Juliana."
+          },
+          {
+            "at": "01:00.00",
+            "text": "\"Stop!\""
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The clear dynamic between the cruel thugs and the vulnerable noblewoman trying to save her mother's legacy plants makes the dramatic conflict instantly understandable.",
+        "central_character": "Juliana, a noble lady with bandaged hands trying to defend her late mother's garden from cruel thugs.",
+        "missing_context": [
+          "Why the thugs are targeting her specific garden plot.",
+          "Why Juliana's hands were already bandaged prior to the altercation."
+        ]
+      },
+      "why": "Visceral villainy, high stakes, and a mid-strike cliffhanger make this clip impossible to scroll past.",
+      "posting_rationale": "Strong performance candidate for paid social campaigns targeting high-drama emotional tropes, rage-baiting visual conflict, and sympathetic underdogs.",
+      "risks": [
+        "Profuse bleeding through bandages and physical aggression could trigger automated platform policy flags for graphic violence."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "shot:coverage"
+      ]
+    },
+    {
+      "id": "E29_0830_1128",
+      "quality_rank": 13,
+      "status": "SHORTLIST",
+      "episode": 29,
+      "start": "01:23.00",
+      "end": "01:52.80",
+      "duration_s": 29.8,
+      "score": 84.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 8,
+        "standalone": 8,
+        "emotional_impact": 9,
+        "pacing": 8,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "Guards violently throw Juliana into a pitch-dark iron cell as she cries out in terror.",
+        "evidence": [
+          {
+            "at": "01:23.00",
+            "text": "Wide shot inside the pitch-dark cell as the heavy iron door swings open."
+          },
+          {
+            "at": "01:24.00",
+            "text": "The guards shove Juliana violently into the cell; she falls hard onto all fours across the cold, wet stone floor."
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "Juliana stops crying, stands up with cold resolve, and vows that her captors will not take Alexander from her.",
+        "question": "How will Juliana escape her cell and protect Alexander from those who framed her?",
+        "evidence": [
+          {
+            "at": "01:49.00",
+            "text": "Front medium shot of Juliana slowly rising to her feet, crossing her arms firmly across her chest as her tears stop and her expression hardens into steely reso…"
+          },
+          {
+            "at": "01:49.00",
+            "text": "\"They took her locket. But they will not take Alexander from me.\""
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "Juliana's dialogue clearly establishes that she was betrayed after saving the Duchess, lost her mother's possessions, and is determined not to lose Alexander.",
+        "central_character": "Juliana, a young healer in a rustic dress who has been unjustly imprisoned.",
+        "missing_context": [
+          "Who Alexander is and his relation to Juliana.",
+          "Why she was imprisoned after healing the Duchess.",
+          "The significance of her mother's stolen ledger and locket."
+        ]
+      },
+      "why": "It delivers high physical shock value upfront and transitions flawlessly into an empowering, vengeance-driven character shift.",
+      "posting_rationale": "Post as a main hook clip for paid social. It taps heavily into betrayal, underdog resilience, and romance drama tropes.",
+      "risks": [
+        "Viewers do not know who Alexander is, but the romantic tension and high stakes compensate well."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:action",
+        "event:dialogue"
+      ]
+    },
+    {
+      "id": "E16_0488_0832",
+      "quality_rank": 14,
+      "status": "SHORTLIST",
+      "episode": 16,
+      "start": "00:48.80",
+      "end": "01:23.19",
+      "duration_s": 34.39,
+      "score": 84.0,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 9,
+        "cliffhanger": 8,
+        "standalone": 8,
+        "emotional_impact": 8,
+        "pacing": 9,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "Alexander physically lifts a thug by the throat against a stone wall and roars 'Who?!', getting an immediate screamed confession.",
+        "evidence": [
+          {
+            "at": "00:48.00",
+            "text": "Alexander tightens his grip on the thug's throat, lifting him higher against the stone wall."
+          },
+          {
+            "at": "00:48.80",
+            "text": "\"Who?!\""
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "After Alexander hints at his painful soldier past, Juliana reaches for his bleeding hand and they share an intense gaze while dramatic cellos swell.",
+        "question": "How will Juliana deal with Gerald Harrington's betrayal, and what hidden military past is Alexander keeping from her?",
+        "evidence": [
+          {
+            "at": "01:11.00",
+            "text": "\"A soldier learns things he wishes he could forget.\""
+          },
+          {
+            "at": "01:16.80",
+            "text": "Medium shot of Alexander and Juliana standing face-to-face in the moonlit garden, framed against the dark night."
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The sequence tells a complete mini-arc: brutal interrogation -> shock confession -> thugs fleeing -> quiet emotional vulnerability.",
+        "central_character": "The mysterious scarred soldier (Alexander) protecting the shocked young woman (Juliana).",
+        "missing_context": [
+          "The exact relationship between Juliana and Gerald Harrington.",
+          "Why Gerald wanted the garden destroyed."
+        ]
+      },
+      "why": "Flawlessly transitions from high-intensity physical action to deep romantic and emotional tension in under 35 seconds.",
+      "posting_rationale": "Strong candidate for main paid-social campaign targeting romance/drama audiences who love protective male leads with mysterious pasts.",
+      "risks": [
+        "Viewers don't know who Gerald is yet, though the woman's devastated reaction conveys he is someone close."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:action",
+        "event:dialogue",
+        "shot:cliffhanger"
+      ]
+    },
+    {
+      "id": "E15_0448_0860",
+      "quality_rank": 15,
+      "status": "SHORTLIST",
+      "episode": 15,
+      "start": "00:44.80",
+      "end": "01:26.00",
+      "duration_s": 41.2,
+      "score": 80.5,
+      "score_source": "stage_b",
+      "scores": {
+        "hook": 8,
+        "cliffhanger": 8,
+        "standalone": 8,
+        "emotional_impact": 8,
+        "pacing": 8,
+        "clean_cut": 9
+      },
+      "gates": {
+        "hook": "PASS",
+        "cliffhanger": "PASS",
+        "standalone": "PASS"
+      },
+      "hook": {
+        "description": "A menacing thug aggressively commands Juliana to get out of the way before shoving her violently to the wet ground.",
+        "evidence": [
+          {
+            "at": "00:44.20",
+            "text": "Tight close-up of the Thug with Cap stepping aggressively into Juliana's personal space, snarling with venom."
+          },
+          {
+            "at": "00:44.80",
+            "text": "\"Get out of the way!\""
+          }
+        ]
+      },
+      "cliffhanger": {
+        "description": "The hero places himself between the victim and three armed thugs, who taunt him right as a tense cello swell cuts off.",
+        "question": "Will Alexander be able to overpower the three armed thugs to protect Juliana?",
+        "evidence": [
+          {
+            "at": "01:19.00",
+            "text": "\"What? You want to fight us, veteran?\""
+          },
+          {
+            "at": "01:22.80",
+            "text": "Close-up of Juliana looking up with wide, anxious eyes, breath hitching in suspense as violence hangs on a knife's edge."
+          }
+        ]
+      },
+      "standalone": {
+        "explanation": "The narrative arc of a vulnerable woman being harassed and her protector stepping in is completely self-contained and easy to follow.",
+        "central_character": "The wounded young woman in bandages (Juliana) trying to protect her mother's plants from thugs.",
+        "missing_context": [
+          "Why the thugs are targeting Juliana and her mother's plants.",
+          "The exact backstory between Juliana and Alexander."
+        ]
+      },
+      "why": "A textbook hero-savior dynamic featuring high emotional stakes, violent conflict, and a perfectly timed cliffhanger.",
+      "posting_rationale": "Ideal high-performing paid social promo clip; high drama, clear victim/hero stakes, and instant scroll-stopping action.",
+      "risks": [
+        "On-screen violence and blood might trigger minor content moderation flags on certain platforms."
+      ],
+      "leakage": "KEEP",
+      "methods": [
+        "event:action",
+        "event:dialogue",
+        "shot:cliffhanger"
+      ]
+    }
+  ],
+  "coverage": {
+    "files_found": 50,
+    "episodes_parsed": 50,
+    "episodes_failed": [],
+    "missing_episode_numbers": [],
+    "duplicate_episode_numbers": [],
+    "blocks_total": 3727,
+    "blocks_by_type": {
+      "camera": 1754,
+      "action": 372,
+      "dialogue": 1487,
+      "sound": 114
+    },
+    "blocks_with_invalid_timestamps": 0,
+    "flag_counts": {
+      "overlaps_dialogue": 10,
+      "outside_scene_range": 1
+    },
+    "distinct_speaker_labels": 64,
+    "total_runtime_s": 6162.6
+  },
+  "candidates": {
+    "settings_version": "cand-v1",
+    "slots": {
+      "dialogue": 3,
+      "action": 2,
+      "cliffhanger": 2,
+      "coverage": 1
+    },
+    "target_per_episode": 7,
+    "candidates_total": 333,
+    "episodes": 50,
+    "per_episode_min": 4,
+    "per_episode_max": 7,
+    "by_method": {
+      "event:dialogue+backfill": 67,
+      "shot:coverage": 50,
+      "event:dialogue": 150,
+      "shot:cliffhanger": 98,
+      "event:action": 75,
+      "shot:cliffhanger+backfill": 35,
+      "event:action+backfill": 4
+    },
+    "multi_method": 107,
+    "mean_duration_s": 32.9,
+    "clean_both_ends": 244
+  },
+  "run_log": {
+    "generated_at": "2026-11-06T22:13:21+00:00",
+    "stages": [
+      {
+        "stage": "stage_a",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "calls": 739,
+        "api_calls": 340,
+        "cache_hits": 406,
+        "failures": 0,
+        "retries": 7,
+        "input_tokens": 549268,
+        "output_tokens": 221795,
+        "thinking_tokens": 0,
+        "latency_s": 2263.06
+      },
+      {
+        "stage": "stage_b",
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "calls": 18,
+        "api_calls": 18,
+        "cache_hits": 0,
+        "failures": 0,
+        "retries": 0,
+        "input_tokens": 31629,
+        "output_tokens": 20602,
+        "thinking_tokens": 24259,
+        "latency_s": 284.14
+      },
+      {
+        "stage": "leakage",
+        "provider": "gemini",
+        "model": "gemini-3.5-flash-lite",
+        "calls": 15,
+        "api_calls": 15,
+        "cache_hits": 0,
+        "failures": 0,
+        "retries": 0,
+        "input_tokens": 29812,
+        "output_tokens": 3966,
+        "thinking_tokens": 0,
+        "latency_s": 111.91
+      }
+    ],
+    "raw_log": "run_log.jsonl",
+    "total_records": 772
+  },
+  "evaluation": null,
+  "failure_cases": [
+    {
+      "title": "The cliffhanger is the payoff: the clip shows the punch land",
+      "episode": 3,
+      "start": "00:58.30",
+      "end": "01:25.50",
+      "candidate_id": "E03_0583_0855",
+      "selected": "Stage A's #1 clip overall (score 91.8, all gates PASS); Stage B also passed it (85.5) and it sits at #8 in the posting order. Guards drag Juliana out of the chapel, a bearded stranger walks in: \"Take your hands off her.\" ... \"I said... let her go.\" The clip ends as he knocks the charging guard out with one punch. Both judges called the knockout the cliffhanger.",
+      "why_wrong": "The question the clip builds - can this stranger stop them? - is answered on screen in the last 1.5 s. Ending on the climax of the action feels like a cliffhanger to a model, but the viewer gets the payoff for free. Stage B explicitly said it does not reveal too much. Only the separate payoff-leakage check caught it (TRIM).",
+      "better_cut": "Same opening, end at 01:23.90 on \"...let her go.\" as the guard squares up (25.6 s), before the punch. The leakage check suggested an even earlier end at 01:20.90 on \"I said...\" (22.6 s).",
+      "fix": "Turn every TRIM from the leakage check into a new candidate and send it back through Stage A/B instead of only recording it; add to the judge prompts that a fight or confrontation resolved inside the clip is a payoff, not a cliffhanger."
+    },
+    {
+      "title": "Stage B believed the screenplay's own word \"cliffhanger\"",
+      "episode": 16,
+      "start": "00:48.80",
+      "end": "01:23.19",
+      "candidate_id": "E16_0488_0832",
+      "selected": "Stage A failed the cliffhanger (\"ends on a tender, romantic lingering gaze ... resolving the immediate tension\"). Stage B reviewed it as possibly underrated and overruled to PASS (84.0), citing the final sound cue: \"cello melody swelling to a dramatic cliffhanger hold\". Its 'unresolved question' (Gerald's betrayal) comes from the first 5 seconds, not the ending. The keyword baseline also ranked it #3 for the same word.",
+      "why_wrong": "Stage A was right. The last 10 s are a calm, resolved moment (\"Are you hurt?\" - \"No.\") and the only 'cliffhanger' is a music cue that names itself one. Because Stage B-reviewed clips outrank Stage A-only clips, this weaker clip sits at #14 while the better cut of the same scene sat at #25.",
+      "better_cut": "E16_0258_0544 (00:25.80-00:54.40, 28.6 s), already in the candidate pool with Stage A PASS on all gates: the fight, \"Who sent you?\", \"Gerald Harrington paid us!\", ending on Juliana's stunned \"Gerald...\" - a real reveal left hanging.",
+      "fix": "Strip editorial words the screenplay writes about itself (\"cliffhanger\", \"dramatic peak\") from SOUND/CAMERA text before judging and in the keyword baseline; require the cliffhanger evidence to include the last spoken line or action, not only music; only let Stage B promote a clip above one it has not reviewed when their scores differ by more than the noise between the two models."
+    },
+    {
+      "title": "Posting order: an early-episode bonus outweighed quality",
+      "episode": 1,
+      "start": "00:11.00",
+      "end": "01:21.40",
+      "candidate_id": "E01_0110_0504 + E01_0390_0814",
+      "selected": "Posting slots 4-7 and 9 went to clips from episodes 1-5 at quality ranks 17-26, lifted by a +4 early-episode bonus. Slots 4 and 6 are both episode 1 (00:11.00-00:50.40 and 00:39.00-01:21.40), which share 11.4 s of the same footage. None of the five had been reviewed by Stage B.",
+      "why_wrong": "The bonus (meant as a tie-breaker so new viewers land near episode 1) is larger than the score gaps it was meant to break, so it pushed five clips only Stage A had seen above Stage B-confirmed promos ranked #4-#8. Two posts in one campaign showing the same 11 seconds would feel repetitive.",
+      "better_cut": "Keep one episode 1 clip (00:11.00-00:50.40, the altar betrayal), drop the overlapping one, and fill slots with the Stage B-confirmed clips from episodes 28, 45, 46 and 11.",
+      "fix": "Make the early-episode bonus a tie-breaker (<= 1 point) applied only among Stage B-confirmed clips, treat any shared footage as a conflict in the posting order (not only > 50% overlap), and always send each early episode's best candidate to Stage B."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "settings_version": "cand-v1",
+  "slots": {
+    "dialogue": 3,
+    "action": 2,
+    "cliffhanger": 2,
+    "coverage": 1
+  },
+  "target_per_episode": 7,
+  "candidates_total": 333,
+  "episodes": 50,
+  "per_episode_min": 4,
+  "per_episode_max": 7,
+  "by_method": {
+    "event:dialogue+backfill": 67,
+    "shot:coverage": 50,
+    "event:dialogue": 150,
+    "shot:cliffhanger": 98,
+    "event:action": 75,
+    "shot:cliffhanger+backfill": 35,
+    "event:action+backfill": 4
+  },
+  "multi_method": 107,
+  "mean_duration_s": 32.9,
+  "clean_both_ends": 244
+}

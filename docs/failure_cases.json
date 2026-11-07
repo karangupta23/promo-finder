@@ -1,0 +1,35 @@
+[
+  {
+    "title": "The cliffhanger is the payoff: the clip shows the punch land",
+    "episode": 3,
+    "start": "00:58.30",
+    "end": "01:25.50",
+    "candidate_id": "E03_0583_0855",
+    "selected": "Stage A's #1 clip overall (score 91.8, all gates PASS); Stage B also passed it (85.5) and it sits at #8 in the posting order. Guards drag Juliana out of the chapel, a bearded stranger walks in: \"Take your hands off her.\" ... \"I said... let her go.\" The clip ends as he knocks the charging guard out with one punch. Both judges called the knockout the cliffhanger.",
+    "why_wrong": "The question the clip builds - can this stranger stop them? - is answered on screen in the last 1.5 s. Ending on the climax of the action feels like a cliffhanger to a model, but the viewer gets the payoff for free. Stage B explicitly said it does not reveal too much. Only the separate payoff-leakage check caught it (TRIM).",
+    "better_cut": "Same opening, end at 01:23.90 on \"...let her go.\" as the guard squares up (25.6 s), before the punch. The leakage check suggested an even earlier end at 01:20.90 on \"I said...\" (22.6 s).",
+    "fix": "Turn every TRIM from the leakage check into a new candidate and send it back through Stage A/B instead of only recording it; add to the judge prompts that a fight or confrontation resolved inside the clip is a payoff, not a cliffhanger."
+  },
+  {
+    "title": "Stage B believed the screenplay's own word \"cliffhanger\"",
+    "episode": 16,
+    "start": "00:48.80",
+    "end": "01:23.19",
+    "candidate_id": "E16_0488_0832",
+    "selected": "Stage A failed the cliffhanger (\"ends on a tender, romantic lingering gaze ... resolving the immediate tension\"). Stage B reviewed it as possibly underrated and overruled to PASS (84.0), citing the final sound cue: \"cello melody swelling to a dramatic cliffhanger hold\". Its 'unresolved question' (Gerald's betrayal) comes from the first 5 seconds, not the ending. The keyword baseline also ranked it #3 for the same word.",
+    "why_wrong": "Stage A was right. The last 10 s are a calm, resolved moment (\"Are you hurt?\" - \"No.\") and the only 'cliffhanger' is a music cue that names itself one. Because Stage B-reviewed clips outrank Stage A-only clips, this weaker clip sits at #14 while the better cut of the same scene sat at #25.",
+    "better_cut": "E16_0258_0544 (00:25.80-00:54.40, 28.6 s), already in the candidate pool with Stage A PASS on all gates: the fight, \"Who sent you?\", \"Gerald Harrington paid us!\", ending on Juliana's stunned \"Gerald...\" - a real reveal left hanging.",
+    "fix": "Strip editorial words the screenplay writes about itself (\"cliffhanger\", \"dramatic peak\") from SOUND/CAMERA text before judging and in the keyword baseline; require the cliffhanger evidence to include the last spoken line or action, not only music; only let Stage B promote a clip above one it has not reviewed when their scores differ by more than the noise between the two models."
+  },
+  {
+    "title": "Posting order: an early-episode bonus outweighed quality",
+    "episode": 1,
+    "start": "00:11.00",
+    "end": "01:21.40",
+    "candidate_id": "E01_0110_0504 + E01_0390_0814",
+    "selected": "Posting slots 4-7 and 9 went to clips from episodes 1-5 at quality ranks 17-26, lifted by a +4 early-episode bonus. Slots 4 and 6 are both episode 1 (00:11.00-00:50.40 and 00:39.00-01:21.40), which share 11.4 s of the same footage. None of the five had been reviewed by Stage B.",
+    "why_wrong": "The bonus (meant as a tie-breaker so new viewers land near episode 1) is larger than the score gaps it was meant to break, so it pushed five clips only Stage A had seen above Stage B-confirmed promos ranked #4-#8. Two posts in one campaign showing the same 11 seconds would feel repetitive.",
+    "better_cut": "Keep one episode 1 clip (00:11.00-00:50.40, the altar betrayal), drop the overlapping one, and fill slots with the Stage B-confirmed clips from episodes 28, 45, 46 and 11.",
+    "fix": "Make the early-episode bonus a tie-breaker (<= 1 point) applied only among Stage B-confirmed clips, treat any shared footage as a conflict in the posting order (not only > 50% overlap), and always send each early episode's best candidate to Stage B."
+  }
+]
