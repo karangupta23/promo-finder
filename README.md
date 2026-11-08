@@ -29,8 +29,11 @@ open outputs/promos.md
 No key? `python run.py all --provider mock` runs the whole pipeline offline with a heuristic stand-in judge
 (useful for checking the plumbing; its "judgements" are not real).
 
-Input: by default the first `*.zip` in the repo root (the input pack), or `./pack/` if it contains `.txt` files.
+Input: by default `./pack/` if it contains `.txt` files, otherwise the first `*.zip` in the repo root.
 Pass `--input path/to/folder_or.zip` for a new show.
+
+> **The input pack is not in this repository.** It is Kuku's confidential content, so it is not published here.
+> Put the 50 screenplay `.txt` files (or the pack `.zip`) in `./pack/` before running. The offline tests also need it.
 
 ## Swapping the model
 
@@ -151,8 +154,11 @@ at 9 RPM. On paid Flash-Lite pricing the whole run is well under US$1.
 | `outputs/review_sheet.csv`, `review_key.json` | blind human review sheet and its key |
 | `outputs/evaluation.json` / `.md` | precision@10 per method |
 
-The committed outputs are from the full Gemini run (Stage A: 333 calls, Stage B: 18, leakage: 15, 0 failures).
-The write-up is in `docs/SOLUTION_DOC.md`; real failure cases are in `docs/failure_cases.json`.
+This public repo keeps only the outputs that contain no screenplay text (coverage report, candidate pool,
+candidate stats, run log, review key, evaluation). The complete raw outputs of the full Gemini run (Stage A: 333 calls,
+Stage B: 18, leakage: 15, 0 failures), including the ranked promos with their dialogue, are shared separately with
+the submission because they quote Kuku's scripts. The write-up is in `docs/SOLUTION_DOC.md`; real failure cases are
+in `docs/failure_cases.json`.
 
 ## Demo site (Vercel)
 

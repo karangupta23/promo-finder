@@ -2,99 +2,76 @@
   "methods": {
     "baseline": {
       "top_n": 10,
-      "pass": 0,
-      "uncertain": 0,
-      "fail": 0,
-      "unlabelled": 10,
-      "precision_at_10": 0.0,
-      "lenient_precision_at_10": 0.0,
+      "pass": 7,
+      "uncertain": 2,
+      "fail": 1,
+      "unlabelled": 0,
+      "precision_at_10": 0.7,
+      "lenient_precision_at_10": 0.9,
       "per_check_pass": {
-        "hook": 0,
-        "cliffhanger": 0,
-        "comprehension": 0,
-        "editing": 0
+        "hook": 8,
+        "cliffhanger": 9,
+        "comprehension": 10,
+        "editing": 8
       },
       "lower_ranked_sample": {
         "n": 4,
-        "pass": 0,
-        "uncertain": 0,
+        "pass": 1,
+        "uncertain": 3,
         "fail": 0
       }
     },
     "stage_a": {
       "top_n": 10,
-      "pass": 0,
-      "uncertain": 0,
+      "pass": 7,
+      "uncertain": 3,
       "fail": 0,
-      "unlabelled": 10,
-      "precision_at_10": 0.0,
-      "lenient_precision_at_10": 0.0,
+      "unlabelled": 0,
+      "precision_at_10": 0.7,
+      "lenient_precision_at_10": 1.0,
       "per_check_pass": {
-        "hook": 0,
-        "cliffhanger": 0,
-        "comprehension": 0,
-        "editing": 0
+        "hook": 8,
+        "cliffhanger": 10,
+        "comprehension": 7,
+        "editing": 9
       },
       "lower_ranked_sample": {
         "n": 4,
-        "pass": 0,
-        "uncertain": 0,
+        "pass": 2,
+        "uncertain": 2,
         "fail": 0
       }
     },
     "stage_a_b": {
       "top_n": 10,
-      "pass": 0,
-      "uncertain": 0,
+      "pass": 5,
+      "uncertain": 5,
       "fail": 0,
-      "unlabelled": 10,
-      "precision_at_10": 0.0,
-      "lenient_precision_at_10": 0.0,
+      "unlabelled": 0,
+      "precision_at_10": 0.5,
+      "lenient_precision_at_10": 1.0,
       "per_check_pass": {
-        "hook": 0,
-        "cliffhanger": 0,
-        "comprehension": 0,
-        "editing": 0
+        "hook": 7,
+        "cliffhanger": 10,
+        "comprehension": 6,
+        "editing": 9
       },
       "lower_ranked_sample": {
         "n": 4,
-        "pass": 0,
-        "uncertain": 0,
+        "pass": 2,
+        "uncertain": 2,
         "fail": 0
       }
     }
   },
-  "unlabelled": [
-    "R001",
-    "R002",
-    "R003",
-    "R004",
-    "R005",
-    "R006",
-    "R007",
-    "R008",
-    "R009",
-    "R010",
-    "R011",
-    "R012",
-    "R013",
-    "R014",
-    "R015",
-    "R016",
-    "R017",
-    "R018",
-    "R019",
-    "R020",
-    "R021",
-    "R022",
-    "R023",
-    "R024",
-    "R025",
-    "R026",
-    "R027",
-    "R028",
-    "R029",
-    "R030"
-  ],
-  "disagreements": []
+  "unlabelled": [],
+  "disagreements": [
+    {
+      "method": "baseline",
+      "rank": 7,
+      "review_id": "R006",
+      "candidate_id": "E29_0374_0743",
+      "notes": ""
+    }
+  ]
 }
